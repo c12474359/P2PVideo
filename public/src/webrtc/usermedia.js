@@ -1,7 +1,15 @@
+/* flow */
 import env from '../utils/env';
 import log from '../utils/logproxy';
 
 export default class UserMedia{
+    window:window
+    env:env
+    log:log
+    name:String
+    UserMedia:?MediaDevices||?getUserMedia
+    stream:Promise
+
     constructor(window){
         this.window = window;
         this.env = env.getInstance();
