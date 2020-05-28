@@ -1,0 +1,35 @@
+{
+  "name": "online-study",
+  "version": "1.0.0",
+  "description": "在线教育直播系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "chenzhaofei",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-flow": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "flow-bin": "^0.125.1",
+    "html-webpack-plugin": "^4.2.1",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "nodejs-websocket": "^1.7.2",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "koa2": "^2.0.0-alpha.7"
+  }
+}
